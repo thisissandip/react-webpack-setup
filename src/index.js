@@ -9,9 +9,10 @@ const alertThis = () => {
 const App = () => {
 	return (
 		<>
-			<div onClick={() => alertThis()}>Hello World</div>
-			<hr />
-			<div>Image:</div>
+			<div className='hello' onClick={() => alertThis()}>
+				Hey, there! You Made It!
+			</div>
+			<div>As a prize, enjoy this view.</div>
 			<img src={require('./assets/Powai.jpeg')} alt='Image' />
 		</>
 	);
